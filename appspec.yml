@@ -5,5 +5,5 @@ files:
     destination: C:\Documents\
 hooks:
   BeforeInstall:
-    - location: \before-install.bat
+    - location:.github/workflows/hello-world
       timeout: 900
